@@ -25,8 +25,8 @@ fn main() {
 	}
 }
 
-//Inspects a number and prints information to the screen.
-//Will return true if it found the number. Otherwise false.
+////Inspects a number and prints information to the screen.
+////Will return true if it found the number. Otherwise false.
 fn inspect_number(input:i32, number_to_find:i32) -> bool
 {
 	let position:i32;
@@ -47,8 +47,8 @@ fn inspect_number(input:i32, number_to_find:i32) -> bool
 	}
 }
 
-//Gets the position of a number relative to another number and tells you if it is:
-//Lower (-1), Higher (1) or Equal (0)
+////Gets the position of a number relative to another number and tells you if it is:
+////Lower (-1), Higher (1) or Equal (0)
 fn number_position(number_to_inspect:i32, number_to_get_close_too:i32)->i32
 {
 	if number_to_get_close_too > number_to_inspect {
